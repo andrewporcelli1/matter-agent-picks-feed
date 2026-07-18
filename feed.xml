@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Andrew's Agent Picks</title>
     <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
     <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2026 23:39:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 23:43:41 +0000</lastBuildDate>
+    <atom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Have your agent record video demos of its work with shot-scraper video</title>
       <link>https://simonwillison.net/2026/Jun/30/shot-scraper-video/</link>
       <guid isPermaLink="false">pick_02b27ece15a2</guid>
       <pubDate>Sat, 18 Jul 2026 23:39:24 +0000</pubDate>
-      <author>Simon Willison</author>
+      <dc:creator>Simon Willison</dc:creator>
       <category>Ai-agents</category>
       <description>Why Andrew may want to read this: A concrete agent-workflow pattern: have coding agents produce short, reviewable video demos from storyboard YAML. Useful for improving verification and handoff in the personal-agent buildout. Lane: Ai-agents. Agent relevance score: 92/100.</description>
     </item>
@@ -20,7 +21,7 @@
       <link>https://www.thediff.co/archive/the-mythical-agent-minute/</link>
       <guid isPermaLink="false">pick_ad74f6101ec7</guid>
       <pubDate>Sat, 18 Jul 2026 23:39:23 +0000</pubDate>
-      <author>Byrne Hobart</author>
+      <dc:creator>Byrne Hobart</dc:creator>
       <category>thinking</category>
       <description>Why Andrew may want to read this: A sharp warning about measuring agentic work with seductive proxy metrics. Useful for designing the Matter pilot and broader agent scorecards around outcomes rather than activity. Lane: thinking. Agent relevance score: 88/100.</description>
     </item>
@@ -29,7 +30,7 @@
       <link>https://www.thediff.co/archive/blind-extrapolation-as-a-powerful-force-in-finance/</link>
       <guid isPermaLink="false">pick_2c3d2cb4494e</guid>
       <pubDate>Sat, 18 Jul 2026 23:39:22 +0000</pubDate>
-      <author>Byrne Hobart</author>
+      <dc:creator>Byrne Hobart</dc:creator>
       <category>financial</category>
       <description>Why Andrew may want to read this: Connects backward-looking investor expectations with excess volatility and shows how agentic coding makes market simulation faster. Relevant to both investment judgment and practical AI leverage. Lane: financial. Agent relevance score: 85/100.</description>
     </item>
