@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Andrew's Agent Picks</title>
+    <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
+    <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jul 2026 23:25:59 +0000</lastBuildDate>
+  </channel>
+</rss>
