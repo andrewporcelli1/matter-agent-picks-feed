@@ -5,6 +5,33 @@
     <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
     <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2026 23:25:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 23:36:20 +0000</lastBuildDate>
+    <item>
+      <title>Have your agent record video demos of its work with shot-scraper video</title>
+      <link>https://simonwillison.net/2026/Jun/30/shot-scraper-video/</link>
+      <guid isPermaLink="false">pick_02b27ece15a2</guid>
+      <pubDate>Tue, 30 Jun 2026 12:00:00 +0000</pubDate>
+      <author>Simon Willison</author>
+      <category>Ai-agents</category>
+      <description>Why Andrew may want to read this: A concrete agent-workflow pattern: have coding agents produce short, reviewable video demos from storyboard YAML. Useful for improving verification and handoff in the personal-agent buildout. Lane: Ai-agents. Agent relevance score: 92/100.</description>
+    </item>
+    <item>
+      <title>The Mythical Agent-Minute</title>
+      <link>https://www.thediff.co/archive/the-mythical-agent-minute/</link>
+      <guid isPermaLink="false">pick_ad74f6101ec7</guid>
+      <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+      <author>Byrne Hobart</author>
+      <category>thinking</category>
+      <description>Why Andrew may want to read this: A sharp warning about measuring agentic work with seductive proxy metrics. Useful for designing the Matter pilot and broader agent scorecards around outcomes rather than activity. Lane: thinking. Agent relevance score: 88/100.</description>
+    </item>
+    <item>
+      <title>Blind Extrapolation as a Powerful Force in Finance</title>
+      <link>https://www.thediff.co/archive/blind-extrapolation-as-a-powerful-force-in-finance/</link>
+      <guid isPermaLink="false">pick_2c3d2cb4494e</guid>
+      <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
+      <author>Byrne Hobart</author>
+      <category>financial</category>
+      <description>Why Andrew may want to read this: Connects backward-looking investor expectations with excess volatility and shows how agentic coding makes market simulation faster. Relevant to both investment judgment and practical AI leverage. Lane: financial. Agent relevance score: 85/100.</description>
+    </item>
   </channel>
 </rss>
