@@ -5,8 +5,35 @@
     <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
     <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2026 23:43:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 00:27:41 +0000</lastBuildDate>
     <atom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Bias: The Hidden Cost of Staying Close to Home</title>
+      <link>https://rpc.cfainstitute.org/blogs/enterprising-investor/2026/home-bias-cost-staying-close-to-home</link>
+      <guid isPermaLink="false">pick_fbf0076b75e2</guid>
+      <pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
+      <dc:creator>Fabricio Oliveira, CFA</dc:creator>
+      <category>financial</category>
+      <description>Why Andrew may want to read this: A clean portfolio-construction case on separating familiar risk from compensated risk, with useful implications for global allocation and client advice. Lane: financial. Agent relevance score: 88/100.</description>
+    </item>
+    <item>
+      <title>The Labor Market Explains Why Inflation Won’t Go Away</title>
+      <link>https://www.apollo.com/wealth/insights-news/insights/daily-spark/The-labor-market-explains-why-inflation-wont-go-away</link>
+      <guid isPermaLink="false">pick_759248bd99ba</guid>
+      <pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
+      <dc:creator>Torsten Slok</dc:creator>
+      <category>macro</category>
+      <description>Why Andrew may want to read this: A concise, falsifiable macro thesis linking a historically long period below estimated NAIRU to sticky inflation and a higher-for-longer policy path. Lane: macro. Agent relevance score: 84/100.</description>
+    </item>
+    <item>
+      <title>Kimi K3, and what we can still learn from the pelican benchmark</title>
+      <link>https://simonwillison.net/2026/Jul/16/kimi-k3/</link>
+      <guid isPermaLink="false">pick_07f97d4cbd8e</guid>
+      <pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
+      <dc:creator>Simon Willison</dc:creator>
+      <category>Ai-agents</category>
+      <description>Why Andrew may want to read this: A timely model-evaluation case that distinguishes benchmark theater from practical evidence on cost, reasoning effort, tool use, and long-horizon agent performance. Lane: Ai-agents. Agent relevance score: 91/100.</description>
+    </item>
     <item>
       <title>Have your agent record video demos of its work with shot-scraper video</title>
       <link>https://simonwillison.net/2026/Jun/30/shot-scraper-video/</link>
