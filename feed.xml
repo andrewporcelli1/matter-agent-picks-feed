@@ -1,80 +1,92 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
-    <channel>
-       <  t itle>Andrew's Agent Picks</title>
-            <l ink>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
-                  <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
-                <l  anguage>en-us</language>
-                      <lastBuildDate>Sun, 02 Aug 2026 15:26:48 +0000</lastBuildDate>
-                   <a   tom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
-                      <item>
-                              <title>Claude plays robotics</title>
-                            <  link>https://www.anthropic.com/research/claude-plays-robotics</link>
-                             < guid isPermaLink="false">pick_527fa4738dcd</guid>
-                            <p  ubDate>Sun, 02 Aug 2026 15:26:48 +0000</pubDate>
-                                   <d c:creator>Anthropic Research</dc:creator>
-                                          < category>Ai-agents</category>
-                                          <d escription>Summary: Anthropic tested language models across simulated and physical robot bodies using control interfaces ranging from direct motor commands to high-level steering, measuring where language-model reasoning transfers to embodied tasks. Why it matters for Andrew: This is a concrete test of how agent capability changes with tool abstraction and environment design—useful for Andrew’s work on agent interfaces, verification, and deciding what should remain under human control. Lane: Ai-agents. Agent relevance score: 90/100.</description>
-                                          </  item>
-                   <   item>
-                           <title>Building self-improving tax agents with Codex</title>
-                         <  link>https://openai.com/index/building-self-improving-tax-agents-with-codex/</link>
-                          <gu id isPermaLink="false">pick_c7affab7451e</guid>
-                                <p  ubDate>Sun, 02 Aug 2026 15:26:48 +0000</pubDate>
-                                        <dc:creator>Aravind Srinivasan, Samay Shamdasani, Arthur Fernandes Araujo, and John de Wasseige</dc:creator>
-                                        <category>Ai-agents</category>
-                                        <description>Summary: OpenAI and Thrive describe a three-part. oop that. urns practitioner corrections and production traces into reviewed findings, targeted evals, bounded Codex tasks, and regression-tested improvements for a tax-preparation agent. Why it matters for Andrew: The evidence-to-eval-to-agent loop maps. irectly onto Andrew’s personal-agent improvement workflow, while the rental-property example makes it unusually relevant to both his knowledge-base system and duplex operations. Lane: Ai-agents. Agent relevance score: 95/100.</description>
-                                </item>
-                   <i tem>
-                       <ti tle>Building scalable AI agents with modular prompt transpilation</title>
-                             <l  ink>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
-                                    <g. id isPermaLink="false">pick_ace5b005ff61</guid>
-                                           <p ubDate>Sun, 02 Aug 2026 15:26:48 +0000</pubDate>
-                                                < dc:creator>Simerus Mahesh</dc:creator>
-                                                 <  category>Ai-agents</category>
-                                                   <description>Summary: Google proposes treating prompts as. ompiled software artifacts: modular skill files are transpiled with dependency checks, static validation, drift detection, CI enforcement, and progressive runtime loading. Why it matters for Andrew: This directly stress-tests Andrew’s modular SKILL.md and AGENTS.md architecture and offers concrete build-time controls for preventing instruction drift as the personal agent system compounds. Lane: Ai-agents. Agent relevance score: 93/100.</description>
-                                              <   /item>
-                                                   < item>
-                                                        <  title>Home Bias: The Hidden Cost. f Staying Close to Home</title>
-                                                          <li nk>https://rpc.cfainstitute.org/blogs/enterprising-investor/2026/home-bias-cost-staying-close-to-home</link>
-                                                                 <g uid isPermaLink="false">pick_fbf0076b75e2</guid>
-                                                                       <  pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
-                                                                       <d  c:creator>Fabricio Oliveira, CFA</dc:creator>
-                                                                            <category>financial</category>
-                                                                            <   description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A clean portfolio-construction case on separating familiar risk from compensated risk, with useful implications for global allocation and client advice. Lane: financial. Agent relevance score: 88/100.</description>
-                                                                       </item>
-                                                    <item>
-                                                           < title>The Labor Market Explains Why Inflation Won’t Go Away</title>
-                                                          <  link>https://www.apollo.com/wealth/insights-news/insights/daily-spark/The-labor-market-explains-why-inflation-wont-go-away</link>
-                                                          <g  uid isPermaLink="false">pick_759248bd99ba</guid>
-                                                                <  pubDate>Sun, 19 Jul 2026 00:27:20. 0000</pubDate>
-                                                             <   dc:creator>Torsten Slok</dc:creator>
-                                                                 <ca tegory>macro</category>
-                                                                        < description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A concise, falsifiable macro thesis linking a historically long period below estimated NAIRU to sticky inflation and a higher-for-longer policy path. Lane: macro. Agent relevance. core: 84/100.</description>
-                                                                     <  /item>
-                                                                           <item>
-                                                                                <   title>Kimi K3, and what we can still learn from the pelican benchmark</title>
-                                                                                  < link>https://simonwillison.net/2026/Jul/16/kimi-k3/</link>
-                                                                                <   guid isPermaLink="false">pick_07f97d4cbd8e</guid>
-                                                                                  < pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
-                                                                                < d  c:creator>Simon Willison</dc:creator>
-                                                                                       <c ategory>Ai-agents</category>
-                                                                                               <description>Summary: Legacy pick; see the original article. or its full factual summary. Why it matters for Andrew: A. imely model-evaluation case that distinguishes benchmark theater from practical evidence on cost, reasoning effort, tool use, and long-horizon agent performance. Lane: Ai-agents. Agent relevance score: 91/100.</description>
-                                                                                       </i tem>
-                    <i  tem>
-                         <   title>Have your agent record video demos of its work with shot-scraper video</title>
-                          <l  ink>https://simonwillison.net/2026/Jun/30/shot-scraper-video/</link>
-                                < g uid isPermaLink="false">pick_02b27ece15a2</guid>
-                                      <p  ubDate>Sat, 18 Jul. 026 23:39:24 +0000</pubDate>
-                                           <d  c:creator>Simon Willison</dc:creator>
-                                                 <  category>Ai-agents</category>
-                                                 <  description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A concrete agent-workflow pattern: have coding agents produce short, reviewable video demos from storyboard YAML. Useful for improving verification and handoff in the personal-agent buildout. Lane: Ai-agents. Agent relevance score: 92/100.</description>
-                                                < /item>
-                                                      <item>
-                                                            < t itle>The Mythical Agent-Minute</title>
-                                                                   <link>https://www.thediff.co/archive/the-mythical-agent-minute/</link>
-                                                                    <guid isPermaLink="false">pick_ad74f6101ec7</guid>
-                                                                    <pubDate>Sat, 18 Jul 2026 23:39:23 +0000</pubDate>
-                                                                   <d c:creator>Byrne Hobart</dc:creator>
-                                                                        <   category>thinking</category>
-                                                                         <  description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A sharp warning about measuring agentic work with seductive proxy metrics. Useful for designing the Matter pilot and broader agent scorecards 2tfs+ocud  t l
+  <channel>
+    <title>Andrew's Agent Picks</title>
+    <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
+    <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Aug 2026 15:26:48 +0000</lastBuildDate>
+    <atom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude plays robotics</title>
+      <link>https://www.anthropic.com/research/claude-plays-robotics</link>
+      <guid isPermaLink="false">pick_527fa4738dcd</guid>
+      <pubDate>Sun, 02 Aug 2026 15:26:48 +0000</pubDate>
+      <dc:creator>Anthropic Research</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Anthropic tested language models across simulated and physical robot bodies using control interfaces ranging from direct motor commands to high-level steering, measuring where language-model reasoning transfers to embodied tasks. Why it matters for Andrew: This is a concrete test of how agent capability changes with tool abstraction and environment design—useful for Andrew’s work on agent interfaces, verification, and deciding what should remain under human control. Lane: Ai-agents. Agent relevance score: 90/100.</description>
+    </item>
+    <item>
+      <title>Building self-improving tax agents with Codex</title>
+      <link>https://openai.com/index/building-self-improving-tax-agents-with-codex/</link>
+      <guid isPermaLink="false">pick_c7affab7451e</guid>
+      <pubDate>Sun, 02 Aug 2026 15:26:48 +0000</pubDate>
+      <dc:creator>Aravind Srinivasan, Samay Shamdasani, Arthur Fernandes Araujo, and John de Wasseige</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: OpenAI and Thrive describe a three-part loop that turns practitioner corrections and production traces into reviewed findings, targeted evals, bounded Codex tasks, and regression-tested improvements for a tax-preparation agent. Why it matters for Andrew: The evidence-to-eval-to-agent loop maps directly onto Andrew’s personal-agent improvement workflow, while the rental-property example makes it unusually relevant to both his knowledge-base system and duplex operations. Lane: Ai-agents. Agent relevance score: 95/100.</description>
+    </item>
+    <item>
+      <title>Building scalable AI agents with modular prompt transpilation</title>
+      <link>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
+      <guid isPermaLink="false">pick_ace5b005ff61</guid>
+      <pubDate>Sun, 02 Aug 2026 15:26:48 +0000</pubDate>
+      <dc:creator>Simerus Mahesh</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Google proposes treating prompts as compiled software artifacts: modular skill files are transpiled with dependency checks, static validation, drift detection, CI enforcement, and progressive runtime loading. Why it matters for Andrew: This directly stress-tests Andrew’s modular SKILL.md and AGENTS.md architecture and offers concrete build-time controls for preventing instruction drift as the personal agent system compounds. Lane: Ai-agents. Agent relevance score: 93/100.</description>
+    </item>
+    <item>
+      <title>Home Bias: The Hidden Cost of Staying Close to Home</title>
+      <link>https://rpc.cfainstitute.org/blogs/enterprising-investor/2026/home-bias-cost-staying-close-to-home</link>
+      <guid isPermaLink="false">pick_fbf0076b75e2</guid>
+      <pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
+      <dc:creator>Fabricio Oliveira, CFA</dc:creator>
+      <category>financial</category>
+      <description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A clean portfolio-construction case on separating familiar risk from compensated risk, with useful implications for global allocation and client advice. Lane: financial. Agent relevance score: 88/100.</description>
+    </item>
+    <item>
+      <title>The Labor Market Explains Why Inflation Won’t Go Away</title>
+      <link>https://www.apollo.com/wealth/insights-news/insights/daily-spark/The-labor-market-explains-why-inflation-wont-go-away</link>
+      <guid isPermaLink="false">pick_759248bd99ba</guid>
+      <pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
+      <dc:creator>Torsten Slok</dc:creator>
+      <category>macro</category>
+      <description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A concise, falsifiable macro thesis linking a historically long period below estimated NAIRU to sticky inflation and a higher-for-longer policy path. Lane: macro. Agent relevance score: 84/100.</description>
+    </item>
+    <item>
+      <title>Kimi K3, and what we can still learn from the pelican benchmark</title>
+      <link>https://simonwillison.net/2026/Jul/16/kimi-k3/</link>
+      <guid isPermaLink="false">pick_07f97d4cbd8e</guid>
+      <pubDate>Sun, 19 Jul 2026 00:27:20 +0000</pubDate>
+      <dc:creator>Simon Willison</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A timely model-evaluation case that distinguishes benchmark theater from practical evidence on cost, reasoning effort, tool use, and long-horizon agent performance. Lane: Ai-agents. Agent relevance score: 91/100.</description>
+    </item>
+    <item>
+      <title>Have your agent record video demos of its work with shot-scraper video</title>
+      <link>https://simonwillison.net/2026/Jun/30/shot-scraper-video/</link>
+      <guid isPermaLink="false">pick_02b27ece15a2</guid>
+      <pubDate>Sat, 18 Jul 2026 23:39:24 +0000</pubDate>
+      <dc:creator>Simon Willison</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A concrete agent-workflow pattern: have coding agents produce short, reviewable video demos from storyboard YAML. Useful for improving verification and handoff in the personal-agent buildout. Lane: Ai-agents. Agent relevance score: 92/100.</description>
+    </item>
+    <item>
+      <title>The Mythical Agent-Minute</title>
+      <link>https://www.thediff.co/archive/the-mythical-agent-minute/</link>
+      <guid isPermaLink="false">pick_ad74f6101ec7</guid>
+      <pubDate>Sat, 18 Jul 2026 23:39:23 +0000</pubDate>
+      <dc:creator>Byrne Hobart</dc:creator>
+      <category>thinking</category>
+      <description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: A sharp warning about measuring agentic work with seductive proxy metrics. Useful for designing the Matter pilot and broader agent scorecards around outcomes rather than activity. Lane: thinking. Agent relevance score: 88/100.</description>
+    </item>
+    <item>
+      <title>Blind Extrapolation as a Powerful Force in Finance</title>
+      <link>https://www.thediff.co/archive/blind-extrapolation-as-a-powerful-force-in-finance/</link>
+      <guid isPermaLink="false">pick_2c3d2cb4494e</guid>
+      <pubDate>Sat, 18 Jul 2026 23:39:22 +0000</pubDate>
+      <dc:creator>Byrne Hobart</dc:creator>
+      <category>financial</category>
+      <description>Summary: Legacy pick; see the original article for its full factual summary. Why it matters for Andrew: Connects backward-looking investor expectations with excess volatility and shows how agentic coding makes market simulation faster. Relevant to both investment judgment and practical AI leverage. Lane: financial. Agent relevance score: 85/100.</description>
+    </item>
+  </channel>
+</rss>
