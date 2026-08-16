@@ -5,8 +5,44 @@
     <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
     <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2026 15:26:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 23:08:56 +0000</lastBuildDate>
     <atom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA</title>
+      <link>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</link>
+      <guid isPermaLink="false">pick_7f110c800256</guid>
+      <pubDate>Sun, 16 Aug 2026 23:08:43 +0000</pubDate>
+      <dc:creator>Alex Martin and Dima Melnyk</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Google describes a unified agent-evaluation system spanning offline experiments and production traces, with versioned metrics, adaptive rubrics, tool-trajectory scoring, failure clustering, simulated users and environments, continuous monitoring, and drift alerts. Why it matters for Andrew: This is a strong blueprint for Andrew's agent-quality loop: keep development and live measurements comparable, grade observable outcomes and tool use, simulate hard cases, cluster failures, and turn production traces into targeted improvements rather than relying on anecdotal success. Lane: Ai-agents. Agent relevance score: 95/100.</description>
+    </item>
+    <item>
+      <title>Enable on-demand expertise with Agent Skills in Genkit Go</title>
+      <link>https://developers.googleblog.com/en/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</link>
+      <guid isPermaLink="false">pick_37d52e93cbb2</guid>
+      <pubDate>Sun, 16 Aug 2026 23:08:43 +0000</pubDate>
+      <dc:creator>Daniela Petruzalek</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Google gives a concrete Genkit Go implementation of Agent Skills using SKILL.md bundles, metadata-first discovery, dynamic activation, progressive loading of instructions and resources, and middleware hooks around model and tool execution. Why it matters for Andrew: The article directly mirrors Andrew's modular skill architecture and adds an independent implementation reference for progressive disclosure, trigger descriptions, resource bundling, and runtime activation—useful for tightening skill design and evaluating portability across agent frameworks. Lane: Ai-agents. Agent relevance score: 92/100.</description>
+    </item>
+    <item>
+      <title>How we built a realtime system for responsive voice AI in six months</title>
+      <link>https://openai.com/index/continuous-voice-interaction-with-gpt-live/</link>
+      <guid isPermaLink="false">pick_deec56a13e2b</guid>
+      <pubDate>Sun, 16 Aug 2026 23:08:27 +0000</pubDate>
+      <dc:creator>Justin Uberti and Zahan Malkani</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: OpenAI explains GPT-Live's full-duplex streaming architecture, asynchronous delegation to frontier models, dynamic context compaction, low-latency transport, and shadow production testing for long-running voice sessions. Why it matters for Andrew: The separation of a fast conversational path from slower reasoning and tool work is a durable design pattern for Andrew's personal-agent interface, while the compaction, session-affinity, and shadow-testing lessons sharpen how to build responsive agents without sacrificing depth or reliability. Lane: Ai-agents. Agent relevance score: 94/100.</description>
+    </item>
+    <item>
+      <title>Patterns and problems in emerging multiagent systems</title>
+      <link>https://www.anthropic.com/research/multiagent-systems</link>
+      <guid isPermaLink="false">pick_f87e14ef06b6</guid>
+      <pubDate>Sun, 16 Aug 2026 23:08:16 +0000</pubDate>
+      <dc:creator>Anthropic Frontier Red Team</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Anthropic studies coordinated agent swarms across vulnerability discovery, shared-code work, hidden-profile decisions, and conflicting objectives, showing both improving coordination and systemic failure modes caused by conformity, weak information sharing, and incompatible goals. Why it matters for Andrew: This is unusually actionable for Andrew's growing use of agent teams: it shows where parallelization helps, why identical agents can create correlated errors, and why dissent, ownership boundaries, and arbitration need to be designed into multi-agent workflows. Lane: Ai-agents. Agent relevance score: 96/100.</description>
+    </item>
     <item>
       <title>Claude plays robotics</title>
       <link>https://www.anthropic.com/research/claude-plays-robotics</link>
