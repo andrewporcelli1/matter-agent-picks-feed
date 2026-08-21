@@ -5,8 +5,26 @@
     <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
     <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2026 23:08:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:33:32 +0000</lastBuildDate>
     <atom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Claude is accelerating protein design and analytical chemistry</title>
+      <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
+      <guid isPermaLink="false">pick_a52e9d71e445</guid>
+      <pubDate>Fri, 21 Aug 2026 12:33:03 +0000</pubDate>
+      <dc:creator>Anthropic Research</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Anthropic reports wet-lab validation of Claude-designed protein binders against 14 of 15 targets, plus autonomous NMR and LC-MS analysis that matched a contract lab's results in minutes rather than days. Why it matters for Andrew: This is a durable end-to-end scientific-agent pattern: autonomous orchestration of specialist models, connectors, compute, raw instrument files, and iterative self-checks, with external validation still required. It is useful for Andrew's decisions about where personal agents can act independently and where verification must remain explicit. Lane: Ai-agents. Agent relevance score: 91/100.</description>
+    </item>
+    <item>
+      <title>Build zero-trust AI agents with Google's Agent Development Kit</title>
+      <link>https://developers.googleblog.com/en/build-zero-trust-ai-agents-with-googles-agent-development-kit/</link>
+      <guid isPermaLink="false">pick_af1a2b5f9904</guid>
+      <pubDate>Fri, 21 Aug 2026 12:33:03 +0000</pubDate>
+      <dc:creator>Shubham Saboo and Eric Dong</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Google presents an open-source ADK reference agent secured with per-agent signed writes, gVisor no-egress code isolation, deterministic input and output gateways, and CI regression tests for security policies. Why it matters for Andrew: This turns prompt-injection concerns into enforceable controls for agents that mutate state: signed writes, sandboxed execution, semantic validation, and regression tests. It gives Andrew a concrete checklist for hardening local automations and Matter-adjacent workflows as agent permissions expand. Lane: Ai-agents. Agent relevance score: 95/100.</description>
+    </item>
     <item>
       <title>Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA</title>
       <link>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</link>
