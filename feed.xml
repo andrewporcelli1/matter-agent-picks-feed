@@ -5,8 +5,53 @@
     <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
     <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 12:32:19 +0000</lastBuildDate>
     <atom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enabling independent research on how people use Claude</title>
+      <link>https://www.anthropic.com/research/enabling-independent-research</link>
+      <guid isPermaLink="false">pick_f4efc5509854</guid>
+      <pubDate>Fri, 28 Aug 2026 12:32:03 +0000</pubDate>
+      <dc:creator>Anthropic Research</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Anthropic reports a privacy-preserving pilot in which independent researchers analyzed roughly 250,000 Claude and Claude Code conversations, finding frequent delegation of consequential work, continued human direction, and productive collaboration friction. Why it matters for Andrew: The real-world evidence gives Andrew concrete design signals for personal-agent oversight: keep humans directing consequential work, preserve useful friction, and treat approval boundaries as part of the workflow rather than an obstacle. Lane: Ai-agents. Agent relevance score: 93/100.</description>
+    </item>
+    <item>
+      <title>Automating repetitive work at OpenAI with Codex</title>
+      <link>https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex</link>
+      <guid isPermaLink="false">pick_5653f7b5490c</guid>
+      <pubDate>Fri, 28 Aug 2026 12:32:03 +0000</pubDate>
+      <dc:creator>Jeremy Lewi</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Jeremy Lewi explains how Codex, Runme notebooks, and WebMCP turn recurring engineering work into reviewed workflows that capture goals, commands, outputs, decisions, and lessons for reuse. Why it matters for Andrew: This is almost a blueprint for Andrew's agent operating system: keep durable context beside execution, retain human approval at consequential choices, and make every run improve the next one. Lane: Ai-agents. Agent relevance score: 97/100.</description>
+    </item>
+    <item>
+      <title>Scaling cyber defenders with Daybreak</title>
+      <link>https://developers.openai.com/blog/scaling-cyber-defenders-with-daybreak</link>
+      <guid isPermaLink="false">pick_21d9f9e8fe56</guid>
+      <pubDate>Fri, 28 Aug 2026 12:32:03 +0000</pubDate>
+      <dc:creator>Mike Aiello</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: OpenAI lays out evidence-first security workflows across ChatGPT, Codex Security review, repository scans, and continuous checks, with scoped access, threat models, isolated validation, and human-reviewed fixes. Why it matters for Andrew: As Andrew expands agents, plugins, and automations, this offers a durable pattern for moving from suspected issues to verified evidence and reviewed remediation without giving agents unchecked authority. Lane: Ai-agents. Agent relevance score: 92/100.</description>
+    </item>
+    <item>
+      <title>Piloting the world's first double-blind AI evaluations</title>
+      <link>https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/</link>
+      <guid isPermaLink="false">pick_f0dc85dcc6d3</guid>
+      <pubDate>Fri, 28 Aug 2026 12:32:03 +0000</pubDate>
+      <dc:creator>William Isaac, Sol Messing, and Kristian Lum</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Google DeepMind describes a double-blind evaluation architecture that uses confidential computing to keep proprietary model weights hidden from evaluators while keeping confidential test prompts hidden from the model provider. Why it matters for Andrew: Andrew relies on model and agent evaluations to guide tooling choices; this is a strong design pattern for reducing benchmark contamination and making external eval results more trustworthy. Lane: Ai-agents. Agent relevance score: 94/100.</description>
+    </item>
+    <item>
+      <title>How to Evaluate Live &amp; Voice Agents in ADK</title>
+      <link>https://developers.googleblog.com/en/how-to-evaluate-live-voice-agents-in-adk/</link>
+      <guid isPermaLink="false">pick_6fed4d86b9b1</guid>
+      <pubDate>Fri, 28 Aug 2026 12:32:03 +0000</pubDate>
+      <dc:creator>Stephen Allen</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Google shows how to test multi-turn voice-agent workflows with simulated audio users, fixed or dynamic scenarios, natural-language trajectory rubrics, tool-call scoring, replayable transcripts, and CI integration. Why it matters for Andrew: This gives Andrew a concrete evaluation loop for future voice and multi-agent workflows: simulate realistic users, score full trajectories and tool use, cap runaway turns, and catch regressions before deployment. Lane: Ai-agents. Agent relevance score: 95/100.</description>
+    </item>
     <item>
       <title>How Claude is accelerating protein design and analytical chemistry</title>
       <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
