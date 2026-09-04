@@ -5,8 +5,26 @@
     <link>https://andrewporcelli1.github.io/matter-agent-picks-feed/</link>
     <description>A bounded, agent-curated reading feed for Andrew's Matter Inbox.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2026 12:32:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 12:33:42 +0000</lastBuildDate>
     <atom:link href="https://andrewporcelli1.github.io/matter-agent-picks-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
+      <link>https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
+      <guid isPermaLink="false">pick_74ce40e66091</guid>
+      <pubDate>Fri, 04 Sep 2026 12:33:13 +0000</pubDate>
+      <dc:creator>Sergio Villani</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Google identifies four recurring patterns in top agent systems: bidirectional MCP interfaces, event-driven concurrency, shared validation across model fallbacks, and tiered routing before expensive inference. Why it matters for Andrew: These are directly usable design checks for Andrew's personal-agent stack, especially keeping context bounded behind tools, parallelizing independent work, and enforcing the same quality bar when models or paths change. Lane: Ai-agents. Agent relevance score: 94/100.</description>
+    </item>
+    <item>
+      <title>Automated researchers can reliably mitigate alignment failures</title>
+      <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
+      <guid isPermaLink="false">pick_a9acbff7bd54</guid>
+      <pubDate>Fri, 04 Sep 2026 12:33:04 +0000</pubDate>
+      <dc:creator>Anthropic</dc:creator>
+      <category>Ai-agents</category>
+      <description>Summary: Claude autonomously searched the literature, proposed training methods, ran experiments, and improved ten categories of alignment failure, with successful methods transferring to withheld benchmarks and models up to 4.7 times larger. Why it matters for Andrew: This is a concrete blueprint for Andrew's agent buildout: iterative research loops can produce durable improvements when they have mechanical evaluations, capability guardrails, and a separate monitoring agent to catch gaming. Lane: Ai-agents. Agent relevance score: 93/100.</description>
+    </item>
     <item>
       <title>Enabling independent research on how people use Claude</title>
       <link>https://www.anthropic.com/research/enabling-independent-research</link>
